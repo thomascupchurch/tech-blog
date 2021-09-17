@@ -4,18 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <title>The Tech Blog</title>
 
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
 
 
 </head>
 
-<body>
+<body id="body">
   <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">Just Tech News</a>
+    <header id="header"">
+      <h1 id="title">
+        <a href="/">The Tech Blog</a>
       </h1>
       <nav>
         {{#if loggedIn}}
@@ -26,7 +26,7 @@
         {{/if}}
       </nav>
     </header>
-    <main>
+    <main id="main">
       {{{ body }}}
     </main>
     <footer>

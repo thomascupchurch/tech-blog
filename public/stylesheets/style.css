@@ -1,0 +1,17 @@
+#header {
+    box-sizing: border-box;
+    background-color: #473A37;
+}
+
+#body {
+    background-color: #BAE0D0;
+}
+
+.wrapper {
+
+}
+
+#title {
+    box-sizing: content-box;
+    border-radius: 5px;
+}
