@@ -50,6 +50,7 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+// find an individual post
 router.get('/post/:id', (req, res) => {
   Post.findOne({
     where: {

@@ -57,7 +57,7 @@ router.get('/:id', (req, res) => {
 
 // create user
 router.post('/', (req, res) => {
-  // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
+ 
   console.log('create user route is running');
   User.create({
     username: req.body.username,
@@ -81,8 +81,9 @@ router.post('/', (req, res) => {
     });
 });
 
+// user login route
 router.post('/login', (req, res) => {
-  // expects {email: 'lernantino@gmail.com', password: 'password1234'}
+  
   console.log('starting login route')
   User.findOne({
     where: {
