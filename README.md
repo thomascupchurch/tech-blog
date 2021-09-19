@@ -9,6 +9,7 @@
 
 
 ## Screenshot
+![screenshot](tech-blog-screenshot.png)
 
 ## Languages
 JS
