@@ -4,6 +4,7 @@
 
 ## Deployed Link
 https://calm-cove-91514.herokuapp.com/
+https://hidden-mesa-62542.herokuapp.com/
 
 ## Github Repo
 https://github.com/thomascupchurch/tech-blog
