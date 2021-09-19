@@ -3,10 +3,10 @@
 ## Description
 
 ## Deployed Link
-
+https://calm-cove-91514.herokuapp.com/
 
 ## Github Repo
-
+https://github.com/thomascupchurch/tech-blog
 
 ## Screenshot
 ![screenshot](tech-blog-screenshot.png)
@@ -17,6 +17,7 @@ CSS
 Handlebars
 Node
 Sequelize
+Express-Handlebars
 
 ## Credits
 Made by Thomas Upchurch
