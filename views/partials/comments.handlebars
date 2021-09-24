@@ -5,7 +5,10 @@
       {{user.username}} on {{format_date created_at}}
     </div>
     <div class="text">
-      {{comment_text}}
+      {{comment_text}} 
+    </div>
+    <div>
+      <button class="delete-comment-button" id="{{id}}">delete</button>
     </div>
   </section>
   {{/each}}
